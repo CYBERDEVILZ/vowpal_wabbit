@@ -25,6 +25,8 @@ std::unique_ptr<VW::workspace> setup(std::unique_ptr<options_i> options)
 
 int main(int argc, char* argv[])
 {
+  // print hello world
+  std::cout<<"Hello World"<<std::endl;
   bool should_use_onethread = false;
   std::string log_level;
   std::string log_output_stream;
